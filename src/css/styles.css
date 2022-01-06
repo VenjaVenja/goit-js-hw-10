@@ -10,6 +10,8 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+
+  padding: 20px;
 }
 
 #search-box {
@@ -17,4 +19,47 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+
+  border: 3px solid rgb(96, 16, 172);
+  border-radius: 10px;
+}
+
+.country-list {
+  list-style: none;
+  padding: 0;
+}
+
+.country-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.country-list__flags {
+  margin-right: 15px;
+}
+
+.country-list__name {
+  margin: 0;
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.country-flag {
+  margin-right: 10px;
+}
+
+.country-title {
+  margin: 0;
+}
+
+.country-text {
+  margin: 0 5px 0 0;
+  margin-right: 5px;
+  font-weight: bold;
 }

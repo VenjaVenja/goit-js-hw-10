@@ -3,8 +3,6 @@ import debounce from 'lodash.debounce';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import { fetchCountries } from './js/fetchCountries';
 import { showCountryList, showCountryCard } from './js/templates';
-// import countryCardTpl from '../src/templates/country-card.hbs';
-// import countrylistTpl from '../src/templates/country-cards.hbs';
 
 const DEBOUNCE_DELAY = 300;
 
